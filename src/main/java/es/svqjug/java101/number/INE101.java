@@ -14,4 +14,7 @@ public class INE101 {
 
     public static void add1ToNumberOfPersons() { numberOfPersons++; }
     public static void add1ToNumberOfStudents() { numberOfStudents++; }
+
+    public static void resetNumberOfPersons() { numberOfPersons = 0; }
+    public static void resetNumberOfStudents() { numberOfStudents = 0; }
 }

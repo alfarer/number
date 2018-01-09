@@ -1,11 +1,18 @@
 package es.svqjug.java101.number;
 
+import org.junit.Before;
 import org.junit.Test;
 
 // import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class INE101Test {
+
+    @Before
+    public void initialize() {
+        INE101.resetNumberOfPersons();
+        INE101.resetNumberOfStudents();
+    }
 
     @Test
     public void whenNoPersonAreCreatedThenInINE101AreCreated0Person() {
