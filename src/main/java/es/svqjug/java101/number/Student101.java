@@ -1,4 +1,8 @@
 package es.svqjug.java101.number;
 
-public class Student101 extends Person {
+class Student101 extends Person {
+    Student101() {
+        this.setRoot("student-");
+        this.setName("");
+    }
 }
