@@ -4,6 +4,10 @@ class Person {
     private String root = "person-";
     private String name = root;
 
+    Person() {
+        INE101.add1ToNumberOfPersons();
+    }
+
     public String getName() {
         return name;
     }

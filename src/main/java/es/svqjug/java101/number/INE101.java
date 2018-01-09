@@ -10,4 +10,6 @@ public class INE101 {
     public static Integer getNumberOfStudent() {
         return null;
     }
+
+    public static void add1ToNumberOfPersons() { numberOfPersons++; }
 }
