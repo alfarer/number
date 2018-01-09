@@ -2,13 +2,14 @@ package es.svqjug.java101.number;
 
 public class INE101 {
     private static Integer numberOfPersons = 0;
+    private static Integer numberOfStudents = 0;
 
     public static Integer getNumberOfPerson() {
         return numberOfPersons;
     }
 
     public static Integer getNumberOfStudent() {
-        return null;
+        return numberOfStudents;
     }
 
     public static void add1ToNumberOfPersons() { numberOfPersons++; }
